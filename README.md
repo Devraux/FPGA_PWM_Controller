@@ -29,18 +29,5 @@ This project implements a PWM controller on the ZedBoard using Zynq FPGA. It sup
 | `channel_select`   | Channel selector    | Selects PWM channel (4 channels)      |
 | `PWM0`, `PWM1`, `PWM2`, `PWM3` | PWM outputs | PWM signals for each channel         |
 
-## How to Use
-1. **Channel Selection**: Use `channel_select` to choose the PWM channel.
-2. **Duty Cycle**: Press `duty_btn` to increase duty cycle (0% to 90%).
-3. **Mode Control**: Toggle PWM mode using `edge_centerModeBtn`.
-4. **Polarity**: Change PWM polarity with `low_hightrueBtn`.
-5. **Reset**: Press `reset_btn` to reset all settings.
-
-## Installation
-1. Create a Vivado project and add the Verilog files.
-2. Set up pin constraints in the `.xdc` file.
-3. Compile and upload to ZedBoard.
-4. Test PWM output on the selected channels.
-
 ## PFGA schematic
 ![Image](https://github.com/user-attachments/assets/dfab7cfa-91ae-4996-b83c-aab01d73b7f5)
